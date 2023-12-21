@@ -1,0 +1,14 @@
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RitualBehaviorDef[defName="VME_OrgyRitualBehaviour"]/stages/li[defaultDuty="VME_NakedPartyDance"]/roleBehaviors/li/dutyDef</xpath>
+    <value>
+      <dutyDef>Orgy</dutyDef>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RitualBehaviorDef[defName="VME_OrgyRitualBehaviour"]/stages/li[defaultDuty="VME_NakedPartyDance"]/defaultDuty</xpath>
+    <value>
+      <defaultDuty>Orgy</defaultDuty>
+    </value>
+  </Operation>
+</Patch>
